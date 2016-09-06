@@ -1,0 +1,31 @@
+{
+  "hosts" : [ {
+    "title" : "default",
+    "threads" : [ {
+      "title" : "default",
+      "testCases" : [ {
+        "uid" : "7dd86f0c340d31ba",
+        "name" : "UnknownTestCase",
+        "title" : "Unknown test case",
+        "time" : {
+          "start" : 63608739458219,
+          "stop" : 63608739459020,
+          "duration" : 801
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      }, {
+        "uid" : "78e313e476e18a",
+        "name" : "UnknownTestCase",
+        "title" : "Unknown test case",
+        "time" : {
+          "start" : 63608739452117,
+          "stop" : 63608739452932,
+          "duration" : 815
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      } ]
+    } ]
+  } ]
+}

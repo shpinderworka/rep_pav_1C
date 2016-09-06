@@ -1,0 +1,92 @@
+{
+  "uid" : "78e313e476e18a",
+  "name" : "UnknownTestCase",
+  "title" : "Unknown test case",
+  "time" : {
+    "start" : 63608739452117,
+    "stop" : 63608739452932,
+    "duration" : 815
+  },
+  "summary" : {
+    "attachments" : 0,
+    "steps" : 3
+  },
+  "failure" : null,
+  "description" : null,
+  "severity" : "NORMAL",
+  "status" : "PASSED",
+  "testId" : null,
+  "suite" : {
+    "uid" : "ac56e074d8172055",
+    "name" : "ОтображениеВозрастаСотрудникаВМесяцах",
+    "title" : "ОтображениеВозрастаСотрудникаВМесяцах"
+  },
+  "steps" : [ {
+    "name" : "Допустим дата рождения сотрудника равна 01.01.1970",
+    "title" : "Допустим дата рождения сотрудника равна 01.01.1970",
+    "time" : {
+      "start" : 63608739452482,
+      "stop" : 63608739452483,
+      "duration" : 1
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "И дата актуальности равна 06.09.2016",
+    "title" : "И дата актуальности равна 06.09.2016",
+    "time" : {
+      "start" : 63608739452732,
+      "stop" : 63608739452732,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "Тогда возраст сотрудника в месяцах должен быть равен 559",
+    "title" : "Тогда возраст сотрудника в месяцах должен быть равен 559",
+    "time" : {
+      "start" : 63608739452932,
+      "stop" : 63608739452932,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  } ],
+  "attachments" : [ ],
+  "issues" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "ОтображениеВозрастаСотрудникаВМесяцах"
+  }, {
+    "name" : "story",
+    "value" : ""
+  }, {
+    "name" : "framework",
+    "value" : "vanessa-behavior"
+  }, {
+    "name" : "suite-title",
+    "value" : null
+  }, {
+    "name" : "suite-name",
+    "value" : "ОтображениеВозрастаСотрудникаВМесяцах"
+  }, {
+    "name" : "language",
+    "value" : "1С"
+  } ],
+  "parameters" : [ ]
+}
