@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ns2:test-suite xmlns:ns2="urn:model.allure.qatools.yandex.ru" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<name>ПоискСчастья</name>
+	<test-cases>
+		<test-case start="63609004669152" stop="63609004672085" status="passed">
+			<name>&lt;описание сценария&gt;</name>
+			<steps>
+				<step start="63609004669521" stop="63609004669552" status="passed">
+					<name>Дано Я открыл новый сеанс TestClient или подключил уже существующий</name>
+					<title>Дано Я открыл новый сеанс TestClient или подключил уже существующий</title>
+				</step>
+				<step start="63609004669883" stop="63609004671003" status="passed">
+					<name>И    Я закрыл все окна клиентского приложения</name>
+					<title>И    Я закрыл все окна клиентского приложения</title>
+				</step>
+				<step start="63609004671170" stop="63609004671206" status="passed">
+					<name>Когда Я нажимаю кнопку командного интерфейса "Поиск (Ctrl+Shift+F)"</name>
+					<title>Когда Я нажимаю кнопку командного интерфейса "Поиск (Ctrl+Shift+F)"</title>
+				</step>
+				<step start="63609004671386" stop="63609004671401" status="passed">
+					<name>Тогда открылось окно "Поиск"</name>
+					<title>Тогда открылось окно "Поиск"</title>
+				</step>
+				<step start="63609004671585" stop="63609004671685" status="passed">
+					<name>И     в поле "СтрокаПоиска" я ввожу текст "счастье"</name>
+					<title>И     в поле "СтрокаПоиска" я ввожу текст "счастье"</title>
+				</step>
+				<step start="63609004671986" stop="63609004672085" status="passed">
+					<name>И     я нажимаю на кнопку "Найти"</name>
+					<title>И     я нажимаю на кнопку "Найти"</title>
+				</step>
+			</steps>
+			<labels>
+				<label name="story" value="&lt;описание сценария>"/>
+			</labels>
+		</test-case>
+	</test-cases>
+	<labels>
+		<label name="feature" value="ПоискСчастья"/>
+		<label name="framework" value="vanessa-behavior"/>
+		<label name="language" value="1С"/>
+	</labels>
+</ns2:test-suite>
