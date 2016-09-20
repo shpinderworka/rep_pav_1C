@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ns2:test-suite xmlns:ns2="urn:model.allure.qatools.yandex.ru" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<name>ПродажаТоваров</name>
+	<test-cases>
+		<test-case start="63609964171032" stop="63609964177660" status="passed">
+			<name>Продажа есть остатки</name>
+			<steps>
+				<step start="63609964171222" stop="63609964171238" status="passed">
+					<name>Дано Я открыл новый сеанс TestClient или подключил уже существующий</name>
+					<title>Дано Я открыл новый сеанс TestClient или подключил уже существующий</title>
+				</step>
+				<step start="63609964171429" stop="63609964177001" status="passed">
+					<name>И    Я закрыл все окна клиентского приложения</name>
+					<title>И    Я закрыл все окна клиентского приложения</title>
+				</step>
+				<step start="63609964177113" stop="63609964177659" status="passed">
+					<name>Допустим я подготоваливаю вспомогательные данные</name>
+					<title>Допустим я подготоваливаю вспомогательные данные</title>
+				</step>
+			</steps>
+			<labels>
+				<label name="story" value="Продажа есть остатки"/>
+			</labels>
+		</test-case>
+		<test-case start="63609964177946" stop="63609964180789" status="passed">
+			<name>Продажа недостаточно остатков</name>
+			<steps>
+				<step start="63609964178129" stop="63609964178144" status="passed">
+					<name>Дано Я открыл новый сеанс TestClient или подключил уже существующий</name>
+					<title>Дано Я открыл новый сеанс TestClient или подключил уже существующий</title>
+				</step>
+				<step start="63609964178335" stop="63609964180009" status="passed">
+					<name>И    Я закрыл все окна клиентского приложения</name>
+					<title>И    Я закрыл все окна клиентского приложения</title>
+				</step>
+				<step start="63609964180158" stop="63609964180788" status="passed">
+					<name>Допустим я подготоваливаю вспомогательные данные</name>
+					<title>Допустим я подготоваливаю вспомогательные данные</title>
+				</step>
+			</steps>
+			<labels>
+				<label name="story" value="Продажа недостаточно остатков"/>
+			</labels>
+		</test-case>
+	</test-cases>
+	<labels>
+		<label name="feature" value="ПродажаТоваров"/>
+		<label name="framework" value="vanessa-behavior"/>
+		<label name="language" value="1С"/>
+	</labels>
+</ns2:test-suite>

@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ns2:test-suite xmlns:ns2="urn:model.allure.qatools.yandex.ru" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<name>ПродажаТоваров</name>
+	<test-cases>
+		<test-case start="63609960828850" stop="63609960829071" status="failed">
+			<name>Продажа есть остатки</name>
+			<failure>
+				<message>{Форма.Форма.Форма(722)}: Не смог подключить TestClient!; ИмяФайла=d:\repo\vanessa-behavior\features\Libraries\UITestRunner\step_definitions\РаботаСИнтерфейсом.epf, ИмяПроцедуры=ЯОткрылНовыйСеансTestClientИлиПодключилУжеСуществующий</message>
+			</failure>
+			<steps>
+				<step start="63609960829033" stop="63609960829067" status="failed">
+					<name>Дано Я открыл новый сеанс TestClient или подключил уже существующий</name>
+					<title>Дано Я открыл новый сеанс TestClient или подключил уже существующий</title>
+				</step>
+				<step start="63609960829071" stop="63609960829071" status="skipped">
+					<name>И    Я закрыл все окна клиентского приложения</name>
+					<title>И    Я закрыл все окна клиентского приложения</title>
+				</step>
+				<step start="63609960829071" stop="63609960829071" status="skipped">
+					<name>Допустим я подготоваливаю вспомогательные данные</name>
+					<title>Допустим я подготоваливаю вспомогательные данные</title>
+				</step>
+			</steps>
+			<attachments>
+				<attachment title="screenshot" source="86ca28f6-5d8b-4aee-8733-85d17d80436f-attachment.png"/>
+			</attachments>
+			<labels>
+				<label name="story" value="Продажа есть остатки"/>
+			</labels>
+		</test-case>
+		<test-case start="63609960830682" stop="63609960830917" status="failed">
+			<name>Продажа недостаточно остатков</name>
+			<failure>
+				<message>{Форма.Форма.Форма(722)}: Не смог подключить TestClient!; ИмяФайла=d:\repo\vanessa-behavior\features\Libraries\UITestRunner\step_definitions\РаботаСИнтерфейсом.epf, ИмяПроцедуры=ЯОткрылНовыйСеансTestClientИлиПодключилУжеСуществующий</message>
+			</failure>
+			<steps>
+				<step start="63609960830866" stop="63609960830913" status="failed">
+					<name>Дано Я открыл новый сеанс TestClient или подключил уже существующий</name>
+					<title>Дано Я открыл новый сеанс TestClient или подключил уже существующий</title>
+				</step>
+				<step start="63609960830917" stop="63609960830917" status="skipped">
+					<name>И    Я закрыл все окна клиентского приложения</name>
+					<title>И    Я закрыл все окна клиентского приложения</title>
+				</step>
+				<step start="63609960830917" stop="63609960830917" status="skipped">
+					<name>Допустим я подготоваливаю вспомогательные данные</name>
+					<title>Допустим я подготоваливаю вспомогательные данные</title>
+				</step>
+			</steps>
+			<attachments>
+				<attachment title="screenshot" source="9a65f723-6eb3-417b-abd7-8d40a327785c-attachment.png"/>
+			</attachments>
+			<labels>
+				<label name="story" value="Продажа недостаточно остатков"/>
+			</labels>
+		</test-case>
+	</test-cases>
+	<labels>
+		<label name="feature" value="ПродажаТоваров"/>
+		<label name="framework" value="vanessa-behavior"/>
+		<label name="language" value="1С"/>
+	</labels>
+</ns2:test-suite>
