@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ns2:test-suite xmlns:ns2="urn:model.allure.qatools.yandex.ru" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<name>ОтображениеВозрастаСотрудникаВМесяцах</name>
+	<test-cases>
+		<test-case start="63609972074580" stop="63609972075159" status="passed">
+			<name/>
+			<steps>
+				<step start="63609972074757" stop="63609972074757" status="passed">
+					<name>Допустим дата рождения сотрудника равна 01.01.1970</name>
+					<title>Допустим дата рождения сотрудника равна 01.01.1970</title>
+				</step>
+				<step start="63609972074958" stop="63609972074958" status="passed">
+					<name>И дата актуальности равна 06.09.2016</name>
+					<title>И дата актуальности равна 06.09.2016</title>
+				</step>
+				<step start="63609972075158" stop="63609972075159" status="passed">
+					<name>Тогда возраст сотрудника в месяцах должен быть равен 559</name>
+					<title>Тогда возраст сотрудника в месяцах должен быть равен 559</title>
+				</step>
+			</steps>
+			<labels>
+				<label name="story" value=""/>
+			</labels>
+		</test-case>
+	</test-cases>
+	<labels>
+		<label name="feature" value="ОтображениеВозрастаСотрудникаВМесяцах"/>
+		<label name="framework" value="vanessa-behavior"/>
+		<label name="language" value="1С"/>
+	</labels>
+</ns2:test-suite>

@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ns2:test-suite xmlns:ns2="urn:model.allure.qatools.yandex.ru" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<name>ПродажаТоваров</name>
+	<test-cases>
+		<test-case start="63609969010417" stop="63609969024025" status="failed">
+			<name>Продажа есть остатки</name>
+			<failure>
+				<message>{Форма.Форма.Форма(605)}: Форма с заголовком &lt;Контрагенты&gt; не найдена!; ИмяФайла=d:\repo\vanessa-behavior\features\Libraries\UITestRunner\step_definitions\РаботаСИнтерфейсом.epf, ИмяПроцедуры=ВФормеВТаблицеЯПерехожуКСтроке</message>
+			</failure>
+			<steps>
+				<step start="63609969010602" stop="63609969010614" status="passed">
+					<name>Дано Я открыл новый сеанс TestClient или подключил уже существующий</name>
+					<title>Дано Я открыл новый сеанс TestClient или подключил уже существующий</title>
+				</step>
+				<step start="63609969010801" stop="63609969016073" status="passed">
+					<name>И    Я закрыл все окна клиентского приложения</name>
+					<title>И    Я закрыл все окна клиентского приложения</title>
+				</step>
+				<step start="63609969016283" stop="63609969017317" status="passed">
+					<name>Допустим я подготоваливаю вспомогательные данные</name>
+					<title>Допустим я подготоваливаю вспомогательные данные</title>
+				</step>
+				<step start="63609969017505" stop="63609969017517" status="passed">
+					<name>Когда В панели разделов я выбираю "Продажи"</name>
+					<title>Когда В панели разделов я выбираю "Продажи"</title>
+				</step>
+				<step start="63609969017706" stop="63609969017723" status="passed">
+					<name>И     Я нажимаю кнопку командного интерфейса "Продажа"</name>
+					<title>И     Я нажимаю кнопку командного интерфейса "Продажа"</title>
+				</step>
+				<step start="63609969017918" stop="63609969017921" status="passed">
+					<name>Тогда открылось окно "Продажа"</name>
+					<title>Тогда открылось окно "Продажа"</title>
+				</step>
+				<step start="63609969018114" stop="63609969018141" status="passed">
+					<name>И     я нажимаю на кнопку "Создать"</name>
+					<title>И     я нажимаю на кнопку "Создать"</title>
+				</step>
+				<step start="63609969018318" stop="63609969018323" status="passed">
+					<name>Тогда открылось окно "Продажа (создание)"</name>
+					<title>Тогда открылось окно "Продажа (создание)"</title>
+				</step>
+				<step start="63609969018520" stop="63609969024024" status="failed">
+					<name>И     В форме "Контрагенты" в таблице "Список" я перехожу к строке:</name>
+					<title>И     В форме "Контрагенты" в таблице "Список" я перехожу к строке:</title>
+				</step>
+				<step start="63609969024025" stop="63609969024025" status="skipped">
+					<name>И     В форме "Контрагенты" в таблице "Список" я перехожу к строке:</name>
+					<title>И     В форме "Контрагенты" в таблице "Список" я перехожу к строке:</title>
+				</step>
+				<step start="63609969024025" stop="63609969024025" status="skipped">
+					<name>И     В форме "Контрагенты" в ТЧ "Список" я выбираю текущую строку</name>
+					<title>И     В форме "Контрагенты" в ТЧ "Список" я выбираю текущую строку</title>
+				</step>
+				<step start="63609969024025" stop="63609969024025" status="skipped">
+					<name>Тогда открылось окно "Продажа (создание) *"</name>
+					<title>Тогда открылось окно "Продажа (создание) *"</title>
+				</step>
+				<step start="63609969024025" stop="63609969024025" status="skipped">
+					<name>И     в ТЧ "Товары" я нажимаю на кнопку "Добавить"</name>
+					<title>И     в ТЧ "Товары" я нажимаю на кнопку "Добавить"</title>
+				</step>
+				<step start="63609969024025" stop="63609969024025" status="skipped">
+					<name>И     в ТЧ "Товары" из выпадающего списка "Товар" я выбираю "Красивая загогулина"</name>
+					<title>И     в ТЧ "Товары" из выпадающего списка "Товар" я выбираю "Красивая загогулина"</title>
+				</step>
+				<step start="63609969024025" stop="63609969024025" status="skipped">
+					<name>И     я перехожу к следующему реквизиту</name>
+					<title>И     я перехожу к следующему реквизиту</title>
+				</step>
+				<step start="63609969024025" stop="63609969024025" status="skipped">
+					<name>И     в ТЧ "Товары" я активизирую поле "Количество"</name>
+					<title>И     в ТЧ "Товары" я активизирую поле "Количество"</title>
+				</step>
+				<step start="63609969024025" stop="63609969024025" status="skipped">
+					<name>И     в ТЧ "Товары" в поле "Количество" я ввожу текст "5,000"</name>
+					<title>И     в ТЧ "Товары" в поле "Количество" я ввожу текст "5,000"</title>
+				</step>
+				<step start="63609969024025" stop="63609969024025" status="skipped">
+					<name>И     в ТЧ "Товары" я активизирую поле "Сумма"</name>
+					<title>И     в ТЧ "Товары" я активизирую поле "Сумма"</title>
+				</step>
+				<step start="63609969024025" stop="63609969024025" status="skipped">
+					<name>И     в ТЧ "Товары" в поле "Сумма" я ввожу текст "500,00"</name>
+					<title>И     в ТЧ "Товары" в поле "Сумма" я ввожу текст "500,00"</title>
+				</step>
+				<step start="63609969024025" stop="63609969024025" status="skipped">
+					<name>И     В форме "Продажа (создание) *" в ТЧ "Товары" я завершаю редактирование строки</name>
+					<title>И     В форме "Продажа (создание) *" в ТЧ "Товары" я завершаю редактирование строки</title>
+				</step>
+				<step start="63609969024025" stop="63609969024025" status="skipped">
+					<name>И     я нажимаю на кнопку "Провести"</name>
+					<title>И     я нажимаю на кнопку "Провести"</title>
+				</step>
+				<step start="63609969024025" stop="63609969024025" status="skipped">
+					<name>И     В текущем окне я нажимаю кнопку командного интерфейса "Остатки номенклатуры"</name>
+					<title>И     В текущем окне я нажимаю кнопку командного интерфейса "Остатки номенклатуры"</title>
+				</step>
+				<step start="63609969024025" stop="63609969024025" status="skipped">
+					<name>Тогда таблица формы с именем "Список" стала равной:</name>
+					<title>Тогда таблица формы с именем "Список" стала равной:</title>
+				</step>
+			</steps>
+			<attachments>
+				<attachment title="screenshot" source="165653bc-efa6-44b4-bcb7-bd20a4f65f7c-attachment.png"/>
+			</attachments>
+			<labels>
+				<label name="story" value="Продажа есть остатки"/>
+			</labels>
+		</test-case>
+		<test-case start="63609969025458" stop="63609969033825" status="passed">
+			<name>Продажа недостаточно остатков</name>
+			<steps>
+				<step start="63609969025627" stop="63609969025644" status="passed">
+					<name>Дано Я открыл новый сеанс TestClient или подключил уже существующий</name>
+					<title>Дано Я открыл новый сеанс TestClient или подключил уже существующий</title>
+				</step>
+				<step start="63609969025831" stop="63609969031006" status="passed">
+					<name>И    Я закрыл все окна клиентского приложения</name>
+					<title>И    Я закрыл все окна клиентского приложения</title>
+				</step>
+				<step start="63609969031317" stop="63609969032426" status="passed">
+					<name>Допустим я подготоваливаю вспомогательные данные</name>
+					<title>Допустим я подготоваливаю вспомогательные данные</title>
+				</step>
+				<step start="63609969032740" stop="63609969033824" status="passed">
+					<name>Допустим я подготоваливаю вспомогательные данные</name>
+					<title>Допустим я подготоваливаю вспомогательные данные</title>
+				</step>
+			</steps>
+			<labels>
+				<label name="story" value="Продажа недостаточно остатков"/>
+			</labels>
+		</test-case>
+	</test-cases>
+	<labels>
+		<label name="feature" value="ПродажаТоваров"/>
+		<label name="framework" value="vanessa-behavior"/>
+		<label name="language" value="1С"/>
+	</labels>
+</ns2:test-suite>
